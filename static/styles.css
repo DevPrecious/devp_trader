@@ -1,0 +1,69 @@
+body {
+    background-color: #f8f9fa;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-body {
+    padding: 1.5rem;
+}
+
+#tradingChart {
+    min-height: 400px;
+}
+
+.btn-group .btn {
+    border-radius: 20px;
+    margin: 0 2px;
+    padding: 5px 15px;
+}
+
+.btn-group .btn.active {
+    background-color: #0d6efd;
+    color: white;
+}
+
+#symbolInput {
+    border-radius: 20px;
+    padding: 8px 15px;
+}
+
+#searchBtn {
+    border-radius: 20px;
+    padding: 8px 20px;
+}
+
+#companyInfo p, #technicalIndicators p {
+    margin-bottom: 0.5rem;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+}
+
+#companyInfo strong, #technicalIndicators strong {
+    color: #0d6efd;
+}
+
+.container-fluid {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .col-md-9, .col-md-3 {
+        padding: 0 10px;
+    }
+    
+    #tradingChart {
+        min-height: 300px;
+    }
+}
